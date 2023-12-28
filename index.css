@@ -361,7 +361,7 @@ body {
     object-fit: cover;
 }
 .fixture-parent {
-    align-self: stretch;
+    width: 1020px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
