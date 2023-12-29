@@ -26,7 +26,7 @@ body {
     flex: 1;
     position: relative;
 }
-.menu {
+.smenu {
     position: relative;
     line-height: 24px;
     text-transform: uppercase;
@@ -56,7 +56,7 @@ body {
     font-size: 20px;
     font-family: 'Bebas Neue';
 }
-.heroh1 {
+.mainheading {
     position: relative;
     text-transform: uppercase;
     display: inline-block;
@@ -64,7 +64,7 @@ body {
     height: 85px;
     flex-shrink: 0;
 }
-.welcome-to-the {
+.p {
     position: relative;
     font-size: 16px;
     font-family: Montserrat;
@@ -141,7 +141,7 @@ body {
 .tname {
     position: relative;
 }
-.artboard-1-1 {
+.rlogo-icon {
     position: relative;
     width: 41px;
     height: 48px;
@@ -183,7 +183,7 @@ body {
     justify-content: flex-end;
     gap: 38px;
 }
-.alqaeda-removebg-preview-1-icon {
+.rlogo-icon1 {
     position: relative;
     width: 49px;
     height: 49px;
@@ -257,7 +257,7 @@ body {
     justify-content: flex-start;
     gap: 30px;
 }
-.main1 {
+.main {
     align-self: stretch;
     overflow: hidden;
     display: flex;
@@ -284,7 +284,7 @@ body {
     align-items: center;
     justify-content: flex-start;
 }
-.artboard-1-11 {
+.rlogo-icon2 {
     position: relative;
     width: 53px;
     height: 62px;
@@ -306,7 +306,7 @@ body {
     position: relative;
     font-size: 20px;
 }
-.image-3-removebg-preview-1-icon {
+.rlogo-icon3 {
     position: relative;
     width: 61px;
     height: 62px;
@@ -348,13 +348,13 @@ body {
     padding: 28px 0px;
     box-sizing: border-box;
 }
-.image-removebg-preview-1-icon {
+.rlogo-icon5 {
     position: relative;
     width: 60.35px;
     height: 62px;
     object-fit: cover;
 }
-.image-3-icon {
+.rlogo-icon7 {
     position: relative;
     width: 54.08px;
     height: 62px;
@@ -370,7 +370,7 @@ body {
     font-size: 20px;
     font-family: 'Bebas Neue';
 }
-.main2 {
+.mainbg {
     align-self: stretch;
     background-color: #1e1e1e;
     overflow: hidden;
@@ -478,7 +478,7 @@ body {
     justify-content: flex-start;
     gap: 50px;
 }
-.main3 {
+.main1 {
     align-self: stretch;
     overflow: hidden;
     display: flex;
@@ -535,7 +535,7 @@ body {
     border: none;
     padding: 0;
     background-color: #03a64a;
-    border-radius: 28px;
+    border-radius: 24px;
     width: 123px;
     height: 48px;
     display: flex;

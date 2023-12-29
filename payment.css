@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     line-height: normal;
@@ -60,27 +59,6 @@ body {
 .textinput {
     border: none;
     outline: none;
-    background-color: #262626;
-    align-self: stretch;
-    border-radius: 100px;
-    border-bottom: 2px solid #6a6a6a;
-    box-sizing: border-box;
-    height: 40px;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-.frame {
-    align-self: stretch;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
-}
-.textinput1 {
-    border: none;
-    outline: none;
     font-family: Montserrat;
     font-size: 20px;
     background-color: #262626;
@@ -97,6 +75,15 @@ body {
     justify-content: flex-start;
     padding: 8px 20px;
     color: #d9d9d9;
+}
+.frame {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
 }
 .label-parent {
     flex: 1;
