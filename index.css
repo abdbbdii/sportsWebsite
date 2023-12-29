@@ -2,17 +2,27 @@ body {
     margin: 0;
     line-height: normal;
 }
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .logo-icon {
     position: relative;
     width: 56px;
     height: 56px;
     object-fit: cover;
 }
-.ar-mishaab {
+.headerItem {
     position: relative;
     line-height: 24px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #d9d9d9;
+    transition: 0.3s;
+}
+.headerItem:hover {
+    text-decoration: none;
+    color: #05f26c;
 }
 .logo {
     display: flex;
@@ -25,12 +35,6 @@ body {
     align-self: stretch;
     flex: 1;
     position: relative;
-}
-.smenu {
-    position: relative;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #05f26c;
 }
 .cheader {
     align-self: stretch;
@@ -93,7 +97,7 @@ body {
     justify-content: center;
     padding: 10px 450px;
     box-sizing: border-box;
-    background-image: url('hero.png');
+    background-image: url('./pics/images/hero.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -140,6 +144,15 @@ body {
 }
 .tname {
     position: relative;
+}
+.moreInfo {
+    position: relative;
+    color: #03a64a;
+    transition: 0.3s;
+}
+.moreInfo:hover {
+    position: relative;
+    color: #05f26c;
 }
 .rlogo-icon {
     position: relative;
