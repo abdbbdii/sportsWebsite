@@ -200,14 +200,12 @@ a {
     padding: 40px;
     gap: 40px;
 }
-.text {
+.button {
     position: relative;
     font-size: 20px;
     font-family: 'Bebas Neue';
     color: #05f26c;
-    text-align: left;
-}
-.button {
+    text-align: center;
     cursor: pointer;
     border: 1px solid #05f26c;
     padding: 15px 0px;
@@ -219,15 +217,14 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: 0.3s;
 }
-.text1 {
+.button1 {
     position: relative;
     font-size: 20px;
     font-family: 'Bebas Neue';
     color: #d9d9d9;
-    text-align: left;
-}
-.button1 {
+    text-align: center;
     cursor: pointer;
     border: 1px solid #d9d9d9;
     padding: 15px 0px;
@@ -239,6 +236,15 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: 0.3s;
+}
+.button1:hover {
+    color: #1e1e1e;
+    background-color: #d9d9d9;
+}
+.button:hover {
+    color: #1e1e1e;
+    background-color: #05f26c;
 }
 .button-parent {
     align-self: stretch;
