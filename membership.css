@@ -31,6 +31,18 @@ a {
     justify-content: center;
     gap: 48px;
 }
+.headerItem {
+    position: relative;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d9d9d9;
+    transition: 0.3s;
+}
+.headerItem:hover {
+    text-decoration: none;
+    color: #05f26c;
+}
 .sports-and-outdoors-icon {
     position: relative;
     width: 67px;
@@ -94,141 +106,146 @@ a {
     padding-left: 27px;
 }
 .p {
-    flex: 1;
-    position: relative;
-}
-.p-wrapper {
     align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 35px;
-    text-align: left;
+    position: relative;
     font-size: 20px;
     font-family: Montserrat;
+    color: #bebebe;
+    text-align: left;
 }
-.text1 {
+.mem {
+    flex: 1;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    box-shadow: 0px 0px 100px rgba(217, 217, 217, 0);
+    border: 2px solid #d9d9d9;
+    box-sizing: border-box;
+    height: 596px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    transition: 1s;
+}
+.mem:hover {
+    box-shadow: 0px 0px 100px rgba(217, 217, 217, 0.3)
+}
+.mem1 {
+    flex: 1;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    box-shadow: 0px 0px 100px rgba(233, 235, 111, 0);
+    border: 2px solid #e9eb6f;
+    box-sizing: border-box;
+    height: 596px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    color: #e9eb6f;
+    transition: 1s;
+}
+.mem1:hover {
+    box-shadow: 0px 0px 100px rgba(233, 235, 111, 0.3);
+}
+.mem2 {
+    flex: 1;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    box-shadow: 0px 0px 100px rgba(68, 233, 255, 0);
+    border: 2px solid #44e9ff;
+    box-sizing: border-box;
+    height: 596px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    color: #44e9ff;
+    transition: 1s;
+}
+.mem2:hover {
+    box-shadow: 0px 0px 100px rgba(68, 233, 255, 0.3);
+}
+.button {
     position: relative;
     font-size: 36px;
     font-family: 'Bebas Neue';
     color: #d9d9d9;
     text-align: center;
-}
-.button {
     cursor: pointer;
     border: 1px solid #d9d9d9;
     padding: 10px 0px;
     background-color: transparent;
-    flex: 1;
+    align-self: stretch;
     border-radius: 73px;
-    flex-shrink: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: 0.2s;
 }
-.f3 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 35px;
+.button:hover {
+    background-color: #d9d9d9;
+    color: #1e1e1e;
 }
-.mem {
-    border-radius: 20px;
-    background-color: #1e1e1e;
-    border: 2px solid #fff;
-    box-sizing: border-box;
-    width: 313px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 28px 0px 25px;
-    gap: 10px;
-}
-.text3 {
-    position: relative;
+.button1 {    position: relative;
     font-size: 36px;
     font-family: 'Bebas Neue';
-    color: #f4f664;
+    color: #e9eb6f;
     text-align: center;
-}
-.button1 {
     cursor: pointer;
-    border: 1px solid #f4f664;
+    border: 1px solid #e9eb6f;
     padding: 10px 0px;
     background-color: transparent;
-    flex: 1;
+    align-self: stretch;
     border-radius: 73px;
-    flex-shrink: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: 0.2s;
 }
-.mem1 {
-    border-radius: 20px;
-    background-color: #1e1e1e;
-    border: 2px solid rgba(244, 246, 100, 0);
-    box-sizing: border-box;
-    width: 313px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 28px 0px;
-    gap: 10px;
-    color: #f4f664;
+.button1:hover {
+    background-color: #e9eb6f;
+    color: #1e1e1e;
 }
-.text5 {
+.button2 {
     position: relative;
     font-size: 36px;
     font-family: 'Bebas Neue';
     color: #44e9ff;
     text-align: center;
-}
-.button2 {
     cursor: pointer;
     border: 1px solid #44e9ff;
     padding: 10px 0px;
     background-color: transparent;
-    flex: 1;
+    align-self: stretch;
     border-radius: 73px;
-    flex-shrink: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: 0.2s;
 }
-.mem2 {
-    border-radius: 20px;
-    background-color: #1e1e1e;
-    border: 2px solid #44e9ff;
-    box-sizing: border-box;
-    width: 313px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 28px 0px;
-    gap: 10px;
-    color: #44e9ff;
+.button2:hover {
+    background-color: #44e9ff;
+    color: #1e1e1e;
 }
 .g {
-    height: 539px;
+    align-self: stretch;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: flex-start;
-    gap: 70px;
+    justify-content: center;
+    gap: 50px;
     font-size: 45px;
     font-family: 'Bebas Neue';
 }
 .subgroups {
-    width: 1079px;
+    width: 1020px;
     display: flex;
     flex-direction: column;
     align-items: center;
