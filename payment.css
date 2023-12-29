@@ -31,6 +31,24 @@ a {
     justify-content: center;
     gap: 48px;
 }
+.headerItem {
+    position: relative;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d9d9d9;
+    transition: 0.3s;
+}
+.headerItem:hover {
+    text-decoration: none;
+    color: #05f26c;
+}
+.sports-and-outdoors-icon {
+    position: relative;
+    width: 67px;
+    height: 67px;
+    object-fit: cover;
+}
 .sports-and-outdoors-icon {
     position: relative;
     width: 67px;
@@ -102,26 +120,19 @@ a {
     justify-content: flex-start;
     gap: 20px;
 }
-.label-parent {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 20px;
-}
-.textinput2 {
+.textinput1 {
     border: none;
     outline: none;
     font-family: Montserrat;
     font-size: 20px;
     background-color: #262626;
-    flex: 1;
     border-radius: 100px;
     border-bottom: 2px solid #6a6a6a;
     box-sizing: border-box;
+    width: 177.67px;
     height: 40px;
     overflow: hidden;
+    flex-shrink: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -129,7 +140,22 @@ a {
     padding: 8px 20px;
     color: #d9d9d9;
 }
-.label-group {
+.frame1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.frame2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frame3 {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -137,8 +163,9 @@ a {
     justify-content: flex-end;
     gap: 20px;
 }
-.frame-parent {
+.pframe {
     align-self: stretch;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -158,8 +185,9 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 40px;
-    font-size: 16px;
+    gap: 20px;
+    font-size: 15px;
+    font-family: Montserrat;
 }
 .payment1 {
     align-self: stretch;
@@ -174,7 +202,7 @@ a {
 }
 .text {
     position: relative;
-    font-size: 26px;
+    font-size: 20px;
     font-family: 'Bebas Neue';
     color: #05f26c;
     text-align: left;
@@ -182,12 +210,10 @@ a {
 .button {
     cursor: pointer;
     border: 1px solid #05f26c;
-    padding: 0;
+    padding: 15px 0px;
     background-color: #151515;
     flex: 1;
     border-radius: 100px;
-    box-sizing: border-box;
-    height: 50px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -196,7 +222,7 @@ a {
 }
 .text1 {
     position: relative;
-    font-size: 26px;
+    font-size: 20px;
     font-family: 'Bebas Neue';
     color: #d9d9d9;
     text-align: left;
@@ -204,12 +230,10 @@ a {
 .button1 {
     cursor: pointer;
     border: 1px solid #d9d9d9;
-    padding: 0;
+    padding: 15px 0px;
     background-color: transparent;
     flex: 1;
     border-radius: 100px;
-    box-sizing: border-box;
-    height: 50px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -248,7 +272,6 @@ a {
     align-items: center;
     justify-content: flex-start;
     padding: 70px 450px;
-    font-size: 26px;
 }
 .footersupporters-icon {
     position: relative;
