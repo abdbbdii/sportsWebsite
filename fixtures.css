@@ -244,9 +244,6 @@ a {
     white-space: pre-wrap;
     text-align: center;
 }
-.text3 {
-    position: relative;
-}
 .header-child {
     align-self: stretch;
     position: relative;
@@ -298,12 +295,6 @@ a {
     align-items: center;
     justify-content: center;
     gap: 38px;
-}
-.arrow-right-alt-icon {
-    position: relative;
-    width: 24px;
-    height: 24px;
-    object-fit: cover;
 }
 .text-parent {
     align-self: stretch;
