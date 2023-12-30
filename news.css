@@ -52,6 +52,9 @@ a {
     gap: 48px;
 }
 .header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     align-self: stretch;
     background-color: #1e1e1e;
     height: 100px;
@@ -61,6 +64,18 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+.headerplace {
+    align-self: stretch;
+    background-color: #1e1e1e;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 0px 50px;
     box-sizing: border-box;
 }
