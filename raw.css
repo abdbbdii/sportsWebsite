@@ -1,0 +1,504 @@
+.logo-icon {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+}
+.ar-mishaab {
+    position: relative;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+.horizontalspacer {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+}
+.smenu {
+    position: relative;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #03a64a;
+}
+.cheader {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+.header {
+    align-self: stretch;
+    background-color: #1e1e1e;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.mainheading {
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 558px;
+    height: 85px;
+    flex-shrink: 0;
+}
+.p {
+    position: relative;
+    font-size: 16px;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    width: 837px;
+}
+.g {
+    width: 1020px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px 96px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.hero {
+    align-self: stretch;
+    height: 542px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 450px;
+    box-sizing: border-box;
+    background-image: url('hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 48px;
+    font-family: 'Zen Dots';
+}
+.h1 {
+    position: relative;
+    text-transform: uppercase;
+    transform:  rotate(0.31deg);
+}
+.live {
+    position: relative;
+    border-radius: 50%;
+    background-color: #b72727;
+    width: 11px;
+    height: 11px;
+}
+.text {
+    position: relative;
+    color: #b4b4b4;
+}
+.header-child {
+    align-self: stretch;
+    position: relative;
+    border-right: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    width: 1px;
+}
+.div {
+    position: relative;
+    opacity: 0.8;
+}
+.header1 {
+    align-self: stretch;
+    border-radius: 76px;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 49px;
+    gap: 17px;
+}
+.tname {
+    position: relative;
+}
+.rlogo-icon {
+    position: relative;
+    width: 41px;
+    height: 48px;
+    object-fit: cover;
+}
+.div1 {
+    position: absolute;
+    top: 17.12px;
+    left: 7px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+}
+.wrapper {
+    position: relative;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(5, 242, 108, 0.47), #03a64a 48.96%, rgba(5, 242, 108, 0.47));
+    width: 28px;
+    height: 53px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.team1container-inner {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+.team1container {
+    width: 537.5px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 38px;
+}
+.rlogo-icon1 {
+    position: relative;
+    width: 49px;
+    height: 49px;
+    object-fit: cover;
+}
+.tname1 {
+    position: relative;
+    text-align: left;
+}
+.team2container {
+    width: 537.5px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 38px;
+    text-align: center;
+}
+.container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.arrow-right-alt-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+.text-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #05f26c;
+}
+.frame {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 0px;
+    gap: 30px;
+    text-align: right;
+    font-size: 30px;
+}
+.fixture {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-family: 'Bebas Neue';
+}
+.subgroups {
+    width: 1020px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.main {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 70px 450px;
+    font-family: 'Zen Dots';
+}
+.fcit-premier-league {
+    margin: 0;
+}
+.wed-27-dec {
+    margin: 0;
+    font-size: 14px;
+}
+.text2 {
+    align-self: stretch;
+    position: relative;
+}
+
+.rlogo-icon2 {
+    position: relative;
+    width: 53px;
+    height: 62px;
+    object-fit: cover;
+}
+.ttext {
+    position: relative;
+    line-height: 18px;
+}
+.team {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.text3 {
+    position: relative;
+    font-size: 20px;
+}
+.rlogo-icon3 {
+    position: relative;
+    width: 61px;
+    height: 62px;
+    object-fit: cover;
+}
+.f2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.text4 {
+    position: relative;
+    line-height: 17px;
+    display: inline-block;
+    max-width: 64px;
+}
+.time {
+    align-self: stretch;
+    background: linear-gradient(90deg, rgba(5, 242, 108, 0.47), #03a64a 50.32%, rgba(5, 242, 108, 0.47));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.fixture1 {
+    border-radius: 20px;
+    background-color: #151515;
+    width: 313px;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0px;
+    box-sizing: border-box;
+}
+.rlogo-icon5 {
+    position: relative;
+    width: 60.35px;
+    height: 62px;
+    object-fit: cover;
+}
+.rlogo-icon7 {
+    position: relative;
+    width: 54.08px;
+    height: 62px;
+    object-fit: cover;
+}
+.fixture-parent {
+    width: 1020px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+}
+.mainbg {
+    align-self: stretch;
+    background-color: #1e1e1e;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 70px 450px;
+    font-family: 'Zen Dots';
+}
+.h12 {
+    position: relative;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Zen Dots';
+    white-space: pre-wrap;
+    transform:  rotate(0.31deg);
+}
+
+.h2container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.newstext {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    font-size: 15px;
+    font-family: Montserrat;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+}
+.news {
+    align-self: stretch;
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    height: 227px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.subgroups3 {
+    width: 743px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.h1-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.highlightimage-icon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 19px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.highlights {
+    align-self: stretch;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+.subgroups4 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 26px;
+    font-family: 'Zen Dots';
+}
+.subgroups2 {
+    width: 1020px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.main1 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 70px 450px;
+    font-size: 34px;
+}
+
+
+.icon {
+    position: relative;
+    width: 23.47px;
+    height: 23.99px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+.home {
+    position: relative;
+    background-color: #151515;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 26px;
+    color: #d9d9d9;
+    font-family: 'Bebas Neue';
+}
+

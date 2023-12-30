@@ -1,643 +1,521 @@
 body {
-    margin: 0;
-    line-height: normal;
+  margin: 0;
+  line-height: normal;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 .logo-icon {
-    position: relative;
-    width: 56px;
-    height: 56px;
-    object-fit: cover;
+  position: relative;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
 }
 .headerItem {
-    position: relative;
-    line-height: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #d9d9d9;
-    transition: 0.3s;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #d9d9d9;
+  transition: 0.3s;
 }
 .headerItem:hover {
-    text-decoration: none;
-    color: #05f26c;
+  text-decoration: none;
+  color: #05f26c;
 }
 .logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 48px;
-}
-.sports-and-outdoors-icon {
-    position: relative;
-    width: 67px;
-    height: 67px;
-    object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
 }
 .horizontalspacer {
-    align-self: stretch;
-    flex: 1;
-    position: relative;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
 }
 .cheader {
-    align-self: stretch;
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 48px;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
 }
 .header {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    align-self: stretch;
-    background-color: #1e1e1e;
-    height: 100px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 50px;
-    box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  align-self: stretch;
+  background-color: #1e1e1e;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  box-sizing: border-box;
 }
 .headerplace {
-    align-self: stretch;
-    background-color: #1e1e1e;
-    height: 100px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 50px;
-    box-sizing: border-box;
+  align-self: stretch;
+  background-color: #1e1e1e;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 50px;
+  box-sizing: border-box;
 }
 .h1 {
-    position: relative;
-    white-space: pre-wrap;
-}
-.arrow-back-ios-icon {
-    position: absolute;
-    margin: 0 !important;
-    height: 83.33%;
-    width: 49.06%;
-    top: 8.33%;
-    right: 50.94%;
-    bottom: 8.33%;
-    left: 0%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
-    z-index: 0;
+  position: relative;
+  white-space: pre-wrap;
 }
 .arrow-back-ios {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .arrow {
-    cursor: pointer;
-    border: none;
-    padding: 107px 10px;
-    background-color: #1e1e1e;
-    border-radius: 10px;
-    width: 34px;
-    height: 165px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  width: 34px;
+  height: 165px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  transition: 0.3s;
+  color: #d9d9d9;
+}
+.arrow:hover {
+  background-color: #262626;
 }
 .icon {
-    position: relative;
-    width: 300px;
-    height: 398.77px;
-    object-fit: cover;
+  position: relative;
+  width: 300px;
+  height: 398.77px;
+  object-fit: cover;
 }
 .form {
-    position: relative;
-    text-transform: uppercase;
+  position: relative;
+  text-transform: uppercase;
 }
 .parent {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
 }
 .icon1 {
-    position: relative;
-    width: 300px;
-    height: 399.74px;
-    object-fit: cover;
+  position: relative;
+  width: 300px;
+  height: 399.74px;
+  object-fit: cover;
 }
 .form1 {
-    position: relative;
-    text-transform: uppercase;
-    white-space: pre-wrap;
-}
-.arrow-back-ios-icon1 {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-}
-.arrow1 {
-    cursor: pointer;
-    border: none;
-    padding: 107px 10px 107px 0px;
-    background-color: #1e1e1e;
-    border-radius: 10px;
-    width: 34px;
-    height: 165px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
+  position: relative;
+  text-transform: uppercase;
+  white-space: pre-wrap;
 }
 .content {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 30px;
-    color: #fff;
-    font-family: 'Bebas Neue';
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Bebas Neue";
 }
 .subgroups1 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 30px;
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Zen Dots';
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Zen Dots";
 }
 .img-icon {
-    position: relative;
-    border-radius: 19px 0px 0px 0px;
-    width: 154px;
-    height: 151px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
+  position: relative;
+  border-radius: 19px 0 0 0;
+  width: 154px;
+  height: 151px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
 }
 .manager {
-    position: relative;
+  position: relative;
 }
 .manager-wrapper {
-    align-self: stretch;
-    flex: 1;
-    border-radius: 0px 0px 0px 19px;
-    background-color: #1e1e1e;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 13px 10px;
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0 0 0 19px;
+  background-color: #1e1e1e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 10px;
 }
 .img-parent {
-    height: 206px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 5px;
+  height: 206px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
 }
 .sbox {
-    align-self: stretch;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .vline {
-    align-self: stretch;
-    position: relative;
-    border-right: 2px solid #03a64a;
-    box-sizing: border-box;
-    width: 2px;
+  align-self: stretch;
+  position: relative;
+  border-right: 2px solid #03a64a;
+  box-sizing: border-box;
+  width: 2px;
 }
 .stbox {
-    flex: 1;
-    border-radius: 0px 19px 19px 0px;
-    background-color: #1e1e1e;
-    height: 206px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 20px 40px;
-    box-sizing: border-box;
-    font-size: 25px;
+  flex: 1;
+  border-radius: 0 19px 19px 0;
+  background-color: #1e1e1e;
+  height: 206px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-size: 25px;
 }
 .frame-parent {
-    align-self: stretch;
-    height: 206px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 5px;
+  align-self: stretch;
+  height: 206px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
 }
 .g {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: 20px;
-    font-family: 'Bebas Neue';
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-family: "Bebas Neue";
 }
 .subgroups2 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 35px;
-    font-family: 'Zen Dots';
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 35px;
+  font-family: "Zen Dots";
 }
 .h12 {
-    position: relative;
-    font-size: 35px;
-    font-family: 'Zen Dots';
-    white-space: pre-wrap;
+  position: relative;
+  font-size: 35px;
+  font-family: "Zen Dots";
+  white-space: pre-wrap;
 }
 .name {
-    flex: 1;
-    position: relative;
+  flex: 1;
+  position: relative;
 }
 .nbox {
-    align-self: stretch;
-    flex: 1;
-    border-radius: 0px 0px 0px 19px;
-    background-color: #1e1e1e;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 13px 10px;
-    gap: 10px;
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0 0 0 19px;
+  background-color: #1e1e1e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 10px;
+  gap: 10px;
 }
 .g1 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .subgroups3 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 30px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
 }
 .stbox3 {
-    flex: 1;
-    border-radius: 0px 19px 19px 0px;
-    background-color: #1e1e1e;
-    height: 206px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    box-sizing: border-box;
-    font-size: 25px;
+  flex: 1;
+  border-radius: 0 19px 19px 0;
+  background-color: #1e1e1e;
+  height: 206px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-size: 25px;
 }
 .nbox7 {
-    flex: 1;
-    border-radius: 0px 0px 0px 19px;
-    background-color: #1e1e1e;
-    width: 154px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 13px 10px;
-    box-sizing: border-box;
-    gap: 10px;
+  flex: 1;
+  border-radius: 0 0 0 19px;
+  background-color: #1e1e1e;
+  width: 154px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 10px;
+  box-sizing: border-box;
+  gap: 10px;
 }
 .span {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .tnsberg {
-    color: inherit;
+  color: inherit;
 }
 .subgroups {
-    width: 1020px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 70px;
+  width: 1020px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 70px;
 }
 .main {
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 70px 450px;
-}
-.footersupporters-icon {
-    position: relative;
-    width: 120px;
-    height: 60px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.logos {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 50px 0px;
-}
-.hline {
-    align-self: stretch;
-    position: relative;
-    border-top: 2px solid #03a64a;
-    box-sizing: border-box;
-    height: 2px;
-}
-.frame-icon {
-    flex: 1;
-    position: relative;
-    max-height: 100%;
-    width: 24px;
-    object-fit: cover;
-}
-.presentationlocale-selector-1 {
-    align-self: stretch;
-    height: 24px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.presentationlocale-selector- {
-    align-self: stretch;
-    width: 33px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 9px 0px 0px;
-    box-sizing: border-box;
-}
-.en {
-    position: relative;
-    line-height: 16.52px;
-    text-transform: uppercase;
-    display: inline-block;
-    max-height: 16.520000457763672px;
-}
-.spanlocale-selector-text {
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 1.9500007629394531px 0px 0px;
-}
-.button {
-    border-radius: 28px;
-    background-color: #03a64a;
-    width: 123px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
-    box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 70px 450px;
 }
 .f21-child {
-    align-self: stretch;
-    position: relative;
-    border-right: 1px solid #03a64a;
-    box-sizing: border-box;
-    width: 1px;
-}
-.img-you-tube {
-    position: relative;
-    width: 29px;
-    height: 21px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.link {
-    width: 29px;
-    height: 21px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.item {
-    border-radius: 24px;
-    background-color: #03a64a;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 13.5px 9.5px;
-    box-sizing: border-box;
-}
-.img-instagram {
-    position: relative;
-    width: 24px;
-    height: 24px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
+  align-self: stretch;
+  position: relative;
+  border-right: 1px solid #03a64a;
+  box-sizing: border-box;
+  width: 1px;
 }
 .link1 {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.item1 {
-    border-radius: 24px;
-    background-color: #03a64a;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
-    box-sizing: border-box;
-}
-.img-twitter {
-    position: relative;
-    width: 29px;
-    height: 24px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .link2 {
-    width: 29px;
-    height: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.item2 {
-    border-radius: 24px;
-    background-color: #03a64a;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 12px 9.5px;
-    box-sizing: border-box;
-}
-.f21 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 682.530029296875px 0px 682.52001953125px;
-    gap: 15px;
-}
-.text {
-    position: relative;
-    font-size: 14.93px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text1 {
-    position: relative;
-    font-size: 14.63px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text2 {
-    position: relative;
-    font-size: 14.73px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text3 {
-    position: relative;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text4 {
-    position: relative;
-    font-size: 14.12px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text6 {
-    position: relative;
-    font-size: 15.54px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.list {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    font-size: 15.03px;
-    color: #d9d9d9;
+  width: 29px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .f21-parent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 50px 0px;
-    gap: 20px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px 0;
+  gap: 20px;
 }
 .g14 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-.footer {
-    align-self: stretch;
-    background-color: #1e1e1e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0px 50px;
-    font-size: 14px;
-    color: #151515;
-    font-family: Inter;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 .players {
-    position: relative;
-    background-color: #151515;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: left;
-    font-size: 20px;
-    color: #d9d9d9;
-    font-family: 'Bebas Neue';
+  position: relative;
+  background-color: #151515;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 20px;
+  color: #d9d9d9;
+  font-family: "Bebas Neue";
 }
-
+.footer {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 50px;
+  font-size: 15px;
+}
+.f1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 50px 0;
+  gap: 30px;
+}
+.footersupporters-icon {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  fill: #b4b4b4;
+}
+.h2container-child {
+  align-self: stretch;
+  position: relative;
+  border-top: 2px solid #03a64a;
+  box-sizing: border-box;
+  height: 2px;
+}
+.linkicons-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px 0;
+  gap: 20px;
+}
+.linkicons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 682.530029296875px 0 682.52001953125px;
+  gap: 15px;
+}
+.en2 {
+  position: relative;
+  font-size: 14px;
+  line-height: 16.52px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  color: #151515;
+  text-align: left;
+  display: inline-block;
+  max-height: 16.520000457763672px;
+}
+.en1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.9500007629394531px 0 0;
+}
+.en {
+  cursor: pointer;
+  border: none;
+  padding: 12px;
+  background-color: #03a64a;
+  border-radius: 25px;
+  width: 75px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 10px;
+}
+.vline {
+  align-self: stretch;
+  position: relative;
+  border-right: 1px solid #03a64a;
+  box-sizing: border-box;
+  width: 1px;
+}
+.footericon {
+  position: relative;
+  width: 23.47px;
+  height: 23.99px;
+  object-fit: cover;
+}
+.footeritem {
+  cursor: pointer;
+  border: none;
+  padding: 12px;
+  background-color: #03a64a;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.footertext {
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+}
+.footerlist {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}

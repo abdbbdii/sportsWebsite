@@ -1,709 +1,673 @@
 body {
-    margin: 0;
-    line-height: normal;
+  margin: 0;
+  line-height: normal;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 .logo-icon {
-    position: relative;
-    width: 56px;
-    height: 56px;
-    object-fit: cover;
+  position: relative;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
 }
 .headerItem {
-    position: relative;
-    line-height: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #d9d9d9;
-    transition: 0.3s;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #d9d9d9;
+  transition: 0.3s;
 }
 .headerItem:hover {
-    text-decoration: none;
-    color: #05f26c;
+  text-decoration: none;
+  color: #05f26c;
 }
 .logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
 }
 .horizontalspacer {
-    align-self: stretch;
-    flex: 1;
-    position: relative;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
 }
 .cheader {
-    align-self: stretch;
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 48px;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
 }
 .header {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    align-self: stretch;
-    background-color: #1e1e1e;
-    height: 100px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 50px;
-    box-sizing: border-box;
-    font-size: 20px;
-    font-family: 'Bebas Neue';
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  align-self: stretch;
+  background-color: #1e1e1e;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Bebas Neue";
 }
 .headerplace {
-    align-self: stretch;
-    background-color: #1e1e1e;
-    height: 100px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px 50px;
-    box-sizing: border-box;
+  align-self: stretch;
+  background-color: #1e1e1e;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 50px;
+  box-sizing: border-box;
 }
 .mainheading {
-    position: relative;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 558px;
-    height: 85px;
-    flex-shrink: 0;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 558px;
+  height: 85px;
+  flex-shrink: 0;
 }
 .p {
-    position: relative;
-    font-size: 16px;
-    font-family: Montserrat;
-    display: flex;
-    align-items: center;
-    width: 837px;
+  position: relative;
+  font-size: 16px;
+  font-family: Montserrat;
+  display: flex;
+  align-items: center;
+  width: 837px;
 }
 .g {
-    width: 1020px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0px 0px 96px;
-    box-sizing: border-box;
-    gap: 20px;
+  width: 1020px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 96px;
+  box-sizing: border-box;
+  gap: 20px;
 }
 .hero {
-    align-self: stretch;
-    height: 542px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 450px;
-    box-sizing: border-box;
-    background-image: url('./pics/images/hero.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    font-size: 48px;
+  align-self: stretch;
+  height: 542px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 450px;
+  box-sizing: border-box;
+  background-image: url(pics/images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: 48px;
 }
 .h1 {
-    position: relative;
-    text-transform: uppercase;
-    transform:  rotate(0.31deg);
+  position: relative;
+  text-transform: uppercase;
+  transform: rotate(0.31deg);
 }
 .live {
-    position: relative;
-    border-radius: 50%;
-    background-color: #b72727;
-    width: 11px;
-    height: 11px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #b72727;
+  width: 11px;
+  height: 11px;
 }
 .text {
-    position: relative;
-    color: #b4b4b4;
+  position: relative;
+  color: #b4b4b4;
 }
 .header-child {
-    align-self: stretch;
-    position: relative;
-    border-right: 1px solid #d9d9d9;
-    box-sizing: border-box;
-    width: 1px;
+  align-self: stretch;
+  position: relative;
+  border-right: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  width: 1px;
 }
 .div {
-    position: relative;
-    opacity: 0.8;
+  position: relative;
+  opacity: 0.8;
 }
 .header1 {
-    align-self: stretch;
-    border-radius: 76px;
-    background-color: #1e1e1e;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 15px 49px;
-    gap: 17px;
+  align-self: stretch;
+  border-radius: 76px;
+  background-color: #1e1e1e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 49px;
+  gap: 17px;
 }
 .tname {
-    position: relative;
+  position: relative;
 }
 .rlogo-icon {
-    position: relative;
-    width: 41px;
-    height: 48px;
-    object-fit: cover;
+  position: relative;
+  width: 41px;
+  height: 48px;
+  object-fit: cover;
 }
 .div1 {
-    position: absolute;
-    top: 17.12px;
-    left: 7px;
-    line-height: 17px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 13px;
+  position: absolute;
+  top: 17.12px;
+  left: 7px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13px;
 }
 .wrapper {
-    position: relative;
-    border-radius: 5px;
-    background: linear-gradient(180deg, rgba(5, 242, 108, 0.47), #03a64a 48.96%, rgba(5, 242, 108, 0.47));
-    width: 28px;
-    height: 53px;
-    overflow: hidden;
-    flex-shrink: 0;
+  position: relative;
+  border-radius: 5px;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 242, 108, 0.47),
+    #03a64a 48.96%,
+    rgba(5, 242, 108, 0.47)
+  );
+  width: 28px;
+  height: 53px;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 .team1container-inner {
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: center;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
 }
 .team1container {
-    width: 537.5px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 38px;
+  width: 537.5px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 38px;
 }
 .rlogo-icon1 {
-    position: relative;
-    width: 49px;
-    height: 49px;
-    object-fit: cover;
+  position: relative;
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
 }
 .tname1 {
-    position: relative;
-    text-align: left;
+  position: relative;
+  text-align: left;
 }
 .team2container {
-    width: 537.5px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 38px;
-    text-align: center;
+  width: 537.5px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 38px;
+  text-align: center;
 }
 .container {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 .text-parent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    text-align: center;
-    font-size: 20px;
-    color: #03a64a;
-    transition: 0.3s;
-    cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #03a64a;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .text-parent:hover {
-    color: #05f26c;
+  color: #05f26c;
 }
 .frame {
-    align-self: stretch;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 30px 0px;
-    gap: 30px;
-    text-align: right;
-    font-size: 30px;
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 0;
+  gap: 30px;
+  text-align: right;
+  font-size: 30px;
 }
 .fixture {
-    align-self: stretch;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 16px;
-    font-family: 'Bebas Neue';
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  font-family: "Bebas Neue";
 }
 .subgroups {
-    width: 1020px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
+  width: 1020px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
 }
 .main {
-    align-self: stretch;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 70px 450px;
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 70px 450px;
 }
 .fcit-premier-league {
-    margin: 0;
+  margin: 0;
 }
 .wed-27-dec {
-    margin: 0;
-    font-size: 14px;
+  margin: 0;
+  font-size: 14px;
 }
 .text2 {
-    align-self: stretch;
-    position: relative;
-}
-.f1 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+  align-self: stretch;
+  position: relative;
 }
 .rlogo-icon2 {
-    position: relative;
-    width: 53px;
-    height: 62px;
-    object-fit: cover;
+  position: relative;
+  width: 53px;
+  height: 62px;
+  object-fit: cover;
 }
 .ttext {
-    position: relative;
-    line-height: 18px;
+  position: relative;
+  line-height: 18px;
 }
 .team {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
 }
 .text3 {
-    position: relative;
-    font-size: 20px;
+  position: relative;
+  font-size: 20px;
 }
 .rlogo-icon3 {
-    position: relative;
-    width: 61px;
-    height: 62px;
-    object-fit: cover;
+  position: relative;
+  width: 61px;
+  height: 62px;
+  object-fit: cover;
 }
 .f2 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 15px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
 }
 .text4 {
-    position: relative;
-    line-height: 17px;
-    display: inline-block;
-    max-width: 64px;
+  position: relative;
+  line-height: 17px;
+  display: inline-block;
+  max-width: 64px;
 }
 .time {
-    align-self: stretch;
-    background: linear-gradient(90deg, rgba(5, 242, 108, 0.47), #03a64a 50.32%, rgba(5, 242, 108, 0.47));
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0px;
-    font-size: 16px;
+  align-self: stretch;
+  background: linear-gradient(
+    90deg,
+    rgba(5, 242, 108, 0.47),
+    #03a64a 50.32%,
+    rgba(5, 242, 108, 0.47)
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 16px;
 }
 .fixture1 {
-    border-radius: 20px;
-    background-color: #151515;
-    width: 313px;
-    height: 235px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 28px 0px;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 100px rgba(5, 242, 108, 0);
-    transition: 1s;
-}.fixture1:hover {
-    box-shadow: 0px 0px 100px rgba(5, 242, 108, 0.2);
+  border-radius: 20px;
+  background-color: #151515;
+  width: 313px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 100px rgba(5, 242, 108, 0);
+  transition: 1s;
+}
+.fixture1:hover {
+  box-shadow: 0 0 100px rgba(5, 242, 108, 0.2);
 }
 .rlogo-icon5 {
-    position: relative;
-    width: 60.35px;
-    height: 62px;
-    object-fit: cover;
+  position: relative;
+  width: 60.35px;
+  height: 62px;
+  object-fit: cover;
 }
 .rlogo-icon7 {
-    position: relative;
-    width: 54.08px;
-    height: 62px;
-    object-fit: cover;
+  position: relative;
+  width: 54.08px;
+  height: 62px;
+  object-fit: cover;
 }
 .fixture-parent {
-    width: 1020px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Bebas Neue';
+  width: 1020px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Bebas Neue";
 }
 .mainbg {
-    align-self: stretch;
-    background-color: #1e1e1e;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 70px 450px;
+  align-self: stretch;
+  background-color: #1e1e1e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 70px 450px;
 }
 .h12 {
-    position: relative;
-    font-size: 26px;
-    text-transform: uppercase;
-    font-family: 'Zen Dots';
-    white-space: pre-wrap;
-    transform:  rotate(0.31deg);
-}
-.h2container-child {
-    align-self: stretch;
-    position: relative;
-    border-top: 2px solid #03a64a;
-    box-sizing: border-box;
-    height: 2px;
+  position: relative;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: "Zen Dots";
+  white-space: pre-wrap;
+  transform: rotate(0.31deg);
 }
 .h2container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .newstext {
-    align-self: stretch;
-    flex: 1;
-    position: relative;
-    font-size: 15px;
-    font-family: Montserrat;
-    color: rgba(255, 255, 255, 0.7);
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: 15px;
+  font-family: Montserrat;
+  color: rgba(255, 255, 255, 0.7);
 }
 .news {
-    align-self: stretch;
-    border-radius: 20px;
-    background-color: #1e1e1e;
-    height: 227px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 20px;
-    box-sizing: border-box;
-    gap: 20px;
+  align-self: stretch;
+  border-radius: 20px;
+  background-color: #1e1e1e;
+  height: 227px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
 }
 .subgroups3 {
-    width: 743px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 30px;
+  width: 743px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
 }
 .h1-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .highlightimage-icon {
-    align-self: stretch;
-    flex: 1;
-    position: relative;
-    border-radius: 19px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 19px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
 }
 .highlights {
-    align-self: stretch;
-    flex: 1;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 30px;
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
 }
 .subgroups4 {
-    align-self: stretch;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 30px;
-    font-size: 26px;
-    font-family: 'Zen Dots';
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 26px;
+  font-family: "Zen Dots";
 }
 .subgroups2 {
-    width: 1020px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 50px;
+  width: 1020px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
 }
 .main1 {
-    align-self: stretch;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 70px 450px;
-    font-size: 34px;
-    font-family: 'Bebas Neue';
-}
-.footersupporters-icon {
-    position: relative;
-    width: 120px;
-    height: 60px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
-}
-.logos {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 50px 0px;
-}
-.icon {
-    position: relative;
-    width: 23.47px;
-    height: 23.99px;
-    object-fit: cover;
-}
-.en2 {
-    position: relative;
-    font-size: 14px;
-    line-height: 16.52px;
-    text-transform: uppercase;
-    display: inline-block;
-    font-family: Inter;
-    color: #151515;
-    text-align: left;
-    max-height: 16.520000457763672px;
-}
-.en1 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0px 1.9500007629394531px 0px 0px;
-}
-.en {
-    cursor: pointer;
-    border: none;
-    padding: 0;
-    background-color: #03a64a;
-    border-radius: 24px;
-    width: 123px;
-    height: 48px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 70px 450px;
+  font-size: 34px;
+  font-family: "Bebas Neue";
 }
 .vline {
-    align-self: stretch;
-    position: relative;
-    border-right: 1px solid #03a64a;
-    box-sizing: border-box;
-    width: 1px;
-}
-.item {
-    cursor: pointer;
-    border: none;
-    padding: 13.5px 9.5px;
-    background-color: #03a64a;
-    border-radius: 24px;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-}
-.item1 {
-    cursor: pointer;
-    border: none;
-    padding: 12px;
-    background-color: #03a64a;
-    border-radius: 24px;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-}
-.item2 {
-    cursor: pointer;
-    border: none;
-    padding: 12px 9.5px;
-    background-color: #03a64a;
-    border-radius: 24px;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-}
-.f211 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 682.530029296875px 0px 682.52001953125px;
-    gap: 15px;
-}
-.text11 {
-    position: relative;
-    font-size: 14.93px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text12 {
-    position: relative;
-    font-size: 14.63px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text13 {
-    position: relative;
-    font-size: 14.73px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text14 {
-    position: relative;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text15 {
-    position: relative;
-    font-size: 14.12px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.text17 {
-    position: relative;
-    font-size: 15.54px;
-    letter-spacing: 0.26px;
-    line-height: 27px;
-    text-transform: uppercase;
-}
-.list {
-    align-self: stretch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-.f21-parent {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 50px 0px;
-    gap: 20px;
-}
-.footer {
-    align-self: stretch;
-    background-color: #1e1e1e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0px 50px;
-    font-size: 15.03px;
-    font-family: Inter;
+  align-self: stretch;
+  position: relative;
+  border-right: 1px solid #03a64a;
+  box-sizing: border-box;
+  width: 1px;
 }
 .home {
-    position: relative;
-    background-color: #151515;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: left;
-    font-size: 26px;
-    color: #d9d9d9;
-    font-family: 'Zen Dots';
+  position: relative;
+  background-color: #151515;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 26px;
+  color: #d9d9d9;
+  font-family: "Zen Dots";
 }
-
+.text {
+  color: #d9d9d9;
+  font-family: Bebas Neue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.footer {
+  align-self: stretch;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 50px;
+  font-size: 15px;
+}
+.f1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 50px 0;
+  gap: 30px;
+}
+.footersupporters-icon {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  fill: #b4b4b4;
+}
+.h2container-child {
+  align-self: stretch;
+  position: relative;
+  border-top: 2px solid #03a64a;
+  box-sizing: border-box;
+  height: 2px;
+}
+.linkicons-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px 0;
+  gap: 20px;
+}
+.linkicons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 682.530029296875px 0 682.52001953125px;
+  gap: 15px;
+}
+.en2 {
+  position: relative;
+  font-size: 14px;
+  line-height: 16.52px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  color: #151515;
+  text-align: left;
+  display: inline-block;
+  max-height: 16.520000457763672px;
+}
+.en1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.9500007629394531px 0 0;
+}
+.en {
+  cursor: pointer;
+  border: none;
+  padding: 12px;
+  background-color: #03a64a;
+  border-radius: 25px;
+  width: 75px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 10px;
+}
+.vline {
+  align-self: stretch;
+  position: relative;
+  border-right: 1px solid #03a64a;
+  box-sizing: border-box;
+  width: 1px;
+}
+.footericon {
+  position: relative;
+  width: 23.47px;
+  height: 23.99px;
+  object-fit: cover;
+}
+.footeritem {
+  cursor: pointer;
+  border: none;
+  padding: 12px;
+  background-color: #03a64a;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.footertext {
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+}
+.footerlist {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
